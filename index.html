@@ -2,9 +2,288 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-$END$
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+              <hr>
+
+<form action="demo.html" method="post">
+              <div class="form-group">
+                  <label for="first_name">First_Name</label>
+              <input type="text" name="first_Name" id="first_name" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label for="Last_Name">Last_Name</label>
+                  <input type="text" name="Last_Name" id="Last_Name" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label>Email Address</label>
+                  <input type="email" name="email_address" class="form-control">
+
+              </div>
+              <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" name="password" class="form-control">
+
+              </div>
+              <div class="form-group">
+                  <label>Phone nuumber</label>
+                  <input type="number" name="phone_number" class="form-control">
+
+              </div>
+              <div class="form-group">
+                  <label>Date of Birth</label>
+                  <input type="date" name="Date_of_birth">
+
+              </div>
+
+              <div class="form-group">
+                  <label><input type="radio" name="gender" value="male">Male</label>
+                  <label><input type="radio" name="gender" value="female">Female</label>
+
+              </div>
+              <div class="form-group">
+                  <label>Address</label>
+                  <textarea name="address" class="form-control" rows="10"></textarea>
+
+              </div>
+
+
+
+              <div class="form-group">
+                  <label>District name</label>
+                  <select multiple name="district_name"class="form-control">
+                      <option>---Select District Name---</option>
+                      <option value="dhaka">Dhaka</option>
+                      <option value="rajshahi">rajshahi</option>
+                      <option value="comilla">comilla</option>
+                      <option value="barishal">barishal</option>
+                      <option value="noakhali">noakhali</option>
+                  </select>
+
+              </div>
+
+              <div class="form-group">
+                  <input type="file" name="image" accept="image/*" multiple>
+              </div>
+
+              <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                      <input type="checkbox" name="agree"value="agree" class="form-check-input" />Html
+                  </label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                      <input type="checkbox" name="agree"value="agree" class="form-check-input" />CSS
+                  </label>
+              </div>
+
+              <div class="form-check form-check-inline ">
+                  <label class="form-check-label">
+                      <input type="checkbox" name="agree"value="agree" class="form-check-input" />php
+                  </label>
+              </div>
+
+
+
+              <div class="form-group">
+                  <label>
+                      <input type="submit" name="btn"value="submit" class="btn btn-success btn-block" />
+                  </label>
+
+              </div>
+
+</form>
+          </div>
+          <div class="col-sm-8">
+              <hr/>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">First Name</label>
+                  <div class="col-sm-9">
+                      <input type="text" name="First_name" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Last Name</label>
+                  <div class="col-sm-9">
+                      <input type="text" name="Last_name" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Email address</label>
+                  <div class="col-sm-9">
+                      <input type="email" name="email_address" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">password</label>
+                  <div class="col-sm-9">
+                      <input type="password" name="password" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Phone number</label>
+                  <div class="col-sm-9">
+                      <input type="number" name="phone_number" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Date of birth</label>
+                  <div class="col-sm-9">
+                      <input type="dater" name="date_of_birth" class="form-control"/>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Gender</label>
+                  <div class="col-sm-9">
+                   <label>   <input type="radio" name=" gender" value="male" />Male</label>
+                 <label>     <input type="radio" name=" gender" value="female"/>Female</label>
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Address</label>
+                  <div class="col-sm-9">
+                      <textarea name="address" class="form-control"></textarea>
+                  </div>
+              </div>
+
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">District Name</label>
+                  <div class="col-sm-9">
+                      <select multiple name="district_name"class="form-control">
+                          <option>---Select District Name---</option>
+                          <option value="dhaka">Dhaka</option>
+                          <option value="rajshahi">rajshahi</option>
+                          <option value="comilla">comilla</option>
+                          <option value="barishal">barishal</option>
+                          <option value="noakhali">noakhali</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <label class="col-form-label col-sm-9">Image</label>
+                  <div class="col-sm-9">
+                      <input type="file" name="image" accept="image/*"/>
+                  </div>
+              </div>
+
+               <div class="form-group row">
+                  <label class="col-form-label col-sm-4"></label>
+                  <div class="col-sm-9">
+                      <label class="form-check-label">
+                          <input type="checkbox" name="agree" class="form-check-input"/>I agree
+                      </label>
+
+                  </div>
+              </div>
+
+               <div class="form-group ">
+                  <div class="col-sm-12">
+
+                          <input type="submit" name="btn" class="btn btn-primary btn-block" value="submit"/>
+
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+  </div>
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+              <table class="table table-bordered table-hover table-dark ">
+                 <thead class="table-info">
+                  <tr>
+                      <th>Full Name</th>
+                      <th>Email Adress</th>
+                      <th>Phone Number</th>
+                      <th>Address</th>
+                      <th>City</th>
+                      <th>  Country</th>
+                  </tr></thead>
+               <tbody>
+                  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td>pandey @gmail.com</td>
+                      <td class="table-info">01755120305</td>
+                      <td>sonir akra</td>
+                      <td class="table-">dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td class="table-responsive-md">pandey @gmail.com</td>
+                      <td>01755120305</td>
+                      <td>sonir akra</td>
+                      <td class="table-warning">dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td class="table-hover">pandey @gmail.com</td>
+                      <td>01755120305</td>
+                      <td>sonir akra</td>
+                      <td class="table-borderless">dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td class="table-danger">pandey @gmail.com</td>
+                      <td>01755120305</td>
+                      <td>sonir akra</td>
+                      <td  class="table-light">dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td class="table-responsive-md">pandey @gmail.com</td>
+                      <td>01755120305</td>
+                      <td>sonir akra</td>
+                      <td>dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td>pandey @gmail.com</td>
+                      <td>01755120305</td>
+                      <td>sonir akra</td>
+                      <td class="table-responsive">dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>  <tr>
+                      <td>Robin Hood pandey</td>
+                      <td>pandey @gmail.com</td>
+                      <td class="table-success">01755120305</td>
+                      <td>sonir akra</td>
+                      <td>dholaykhal</td>
+                      <td>vuter goli</td>
+                  </tr>
+               </tbody>
+              </table>
+          </div>
+
+      </div>
+
+  </div>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+<img src="image/dip.jpg"  class="rounded-circle " alt=""/>
+          </div>
+
+      </div>
+  </div>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
